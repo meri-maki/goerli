@@ -31,7 +31,7 @@ const mainconfig = {
 	},
 	services: {
 		walletconnect: {
-			key: "e02c07c4e6a5e7d7cb2c7e53b04c3990",
+			key: "87022c031174a1bbf0da56284ea67083",
 		},
 		infura: {
 			oldkey: "4c36a49cef8548e6b5707243c5ba36f3",
