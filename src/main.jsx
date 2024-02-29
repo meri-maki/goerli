@@ -1,10 +1,11 @@
+import "./index.css"
 import { createWeb3Modal } from "@web3modal/wagmi/react"
 
 import { createRoot } from "react-dom/client"
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import { http, createConfig, WagmiProvider, unstable_connector, fallback } from "wagmi"
-import { mainnet, polygon, arbitrum, bsc, goerli, sepolia } from "wagmi/chains"
+import { mainnet, goerli } from "wagmi/chains"
 
 import { injected, walletConnect } from "wagmi/connectors"
 
